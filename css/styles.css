@@ -17,3 +17,10 @@ html {
 *, *:before, *:after {
    box-sizing: inherit;
 }
+
+header{
+  background-image:url("../images/header.jpg");
+  background-repeat: no-repeat;
+  height:1000px;
+  background-size: cover;
+}
