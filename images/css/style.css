@@ -40,9 +40,9 @@ h1{
 
 
 .link{
-  position: relative;
-  /*display: inline-block;*/
-left: 730px;
+position: relative;
+text-align: right;
+right:150px;
 word-spacing: 30px;
 padding: 10px;
 top:-100px;
@@ -90,7 +90,7 @@ color:#465065;
 
 
 .titre .bouton a{
-  /text-align: left;
+  text-align: left;
   line-height: 60px;
   padding: 20px 30px;
   vertical-align: middle;
@@ -98,7 +98,7 @@ color:#465065;
   color: white;
   margin-top: 200px;
   margin-right: 0px;
-  margin-left: 0px;*/
+  margin-left: 0px;
 
   margin: 1000px 910px 200px 200px;
   padding: 24px 24px 24px 24px;
@@ -114,13 +114,7 @@ display: block;
   background-color: #f0454C;
   margin-bottom: 20px;
 }
-
- .peace{
-  text-align: center;
-  margin-right:550px;
-  margin-top: 10px;
- }
-
+/*petit blok rose section 2*/
  .peace:before{
    content:"";
  display: block;
@@ -129,4 +123,8 @@ display: block;
    background-color: #f0454C;
    margin-bottom: 20px;
    margin-left: 350px;
- }
+}
+
+.section-2{
+  display:block;
+}
