@@ -93,7 +93,6 @@ color:#465065;
   text-align: left;
   line-height: 60px;
   padding: 20px 30px;
-  vertical-align: middle;
   background: #f0455c;
   color: white;
   margin-top: 200px;
@@ -104,6 +103,7 @@ color:#465065;
   padding: 24px 24px 24px 24px;
   border-radius: 10px;
   background: rgb(250,70,80);
+  font-weight: bold;
 
 }/*petit blok rose*/
 .titre:before{
@@ -117,22 +117,25 @@ display: block;
 
 .section-2{
 display: flex;
-position: relative;
-padding: 24px 24px 24px 200px;
-justify-content: space-between;
+padding: 20px;
+justify-content: space-around;
+text-align: left;
+ margin-left:170px;
+ margin-right:170px;
+ height: 300px;
+  padding-top:10px;
  }
 
 .simple{
 position: relative;
 left: 5px;
-
+line-height:1px;
 
 }
 
 span{
   display: block;
 }
-
 
 
 
@@ -143,9 +146,124 @@ main{
   margin: 20px auto 0;
 
 }
-
 .portfolio {
   display: flex;
+  padding-top: 25px;
+ }
 
+ .portfolio img{
+margin-left: 190px;
 
  }
+
+ h2{
+  text-transform: uppercase;
+  color: #465065;
+ }
+
+
+ .peace{
+  padding-right:30px; 
+
+ }
+ 
+
+ a.more{
+  color:#f0454C;
+ text-transform: uppercase;
+ } 
+
+h2 :before{
+content:"";
+display: block;
+  width: 58px;
+  height: 6px;
+  background-color: #f0454C;
+  margin-bottom: 20px;
+}
+
+.port h2:before{
+padding-top:7px;
+content:"";
+display: block;
+  width: 58px;
+  height: 6px;
+  background-color: #f0454C;
+  margin-bottom: 20px
+}
+
+
+.presentation a {
+float: right;
+margin-top: 20px;
+margin-bottom: 20px;
+color:#f0454c
+;
+}.presentation img {
+border-radius: 50%;
+
+}.presentation p {
+color:#9aa0ab
+;
+font-size: 16px;
+position: relative;
+top: -40px;
+
+}
+.presentation h2{
+position: relative;
+top:-25px;
+font-family: 'Montserrat', sans-serif;
+
+}.presentation h3{
+position: relative;
+top: -30px;
+font-size: 27px;}
+
+.presentation{
+  display:block;
+}
+
+.nom{
+  width: 173.3;
+}
+
+aside{
+  width: 140px;
+}
+
+.presentation2{
+  display: flex;
+}
+
+footer p{
+padding-top: 10px;
+}
+
+footer i {
+padding-top: 25px;
+}
+footer a {
+color:lightgrey;
+}
+a:hover{
+  color: black;
+}
+span{
+  display: block;
+}
+
+footer {
+display:flex;
+justify-content: space-between;
+border-top: 1px solid lightgrey;
+margin-top: 90px;
+word-spacing: 10px;
+color: #b9c0c6
+;
+font-size: 14px;
+}
+
+.our{ 
+margin-left: 190px;
+}
